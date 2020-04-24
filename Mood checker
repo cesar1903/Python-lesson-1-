@@ -1,0 +1,14 @@
+user_name = input("Please, enter your name:")
+print("Hello there " + user_name + "!")
+
+
+mood = input("how do you feel today, " + user_name + "?:")
+
+if mood == "happy":
+    print("It is great to see you happy!")
+elif mood == "sad":
+    print("cheer up buddy!")
+elif mood == "nervous":
+    print("take a deep breath 3 times")
+else:
+    print("I don´t recognise this mood")
